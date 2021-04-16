@@ -14,7 +14,8 @@ const post = {
 					  dislikes: 2 //вывести это число
 					}
 			},
-			{	userId: 5, //вывести это число
+			{	
+				userId: 5, //вывести это число
 				userName: "Jane",
 				text: "lorem ipsum 2", //вывести этот текст
 				rating:{likes: 3,dislikes: 1}
