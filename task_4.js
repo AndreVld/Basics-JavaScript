@@ -34,7 +34,7 @@ const products = [
 ]
 
 const products_with_photos = products.filter(function(el){
-		if (el.photos != undefined && el.photos.length != 0 ){
+		if ('photos' in el && el.photos.length != 0 ){
 				return el
 		}
 	})
