@@ -22,10 +22,10 @@ const post = {
 		]
 	}
 let values_to_output =[
-	post.author,						// "John"
+	post.author,				// "John"
 	post.comments[0].rating.dislikes,	// 2
-	post.comments[1].userId,			// 5
-	post.comments[1].text				// "lorem ipsum 2"
+	post.comments[1].userId,		// 5
+	post.comments[1].text			// "lorem ipsum 2"
 	]
 
 for(let i = 0;i < values_to_output.length;++i){
